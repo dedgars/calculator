@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 40x;
+    font-family: sans-serif;
+   
+}
+
+.container{
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: rgb(87, 87, 87);
+    width: 205px;
+    border-radius: 10px;
+    box-shadow: 
+        -8px 2em 3em rgb(0 0 0 / 30%), 
+        0 0 0 0px rgb(87 87 87), 
+        0.4em 0.4em 1em rgb(0 0 0 / 30%);
+    padding-bottom: 0.5px;
+  
+}
+
+.screen,
+.screenUp {
+    height: 40px;
+    color: white;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    text-align: right;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.screenUp {
+    font-size: 18px;
+    height: 26px;
+}
+
+.all-buttons {
+    font-size: 0;
+}
+.buttons,
+.op-buttons,
+.digit-buttons,
+.equal-button,
+.del-button,
+.clear-button {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border: none;
+    background: rgb(141, 140, 140);
+    color: white;
+    font-size: 18px;
+    margin: 0.5px;
+}
+
+.del-button,
+.clear-button {
+    background: rgb(107, 107, 107);
+
+}
+
+
+
+#clear,
+#zero{
+    width: 101px;
+
+}
+#zero {
+    border-bottom-left-radius: 10px;
+}
+#equal {
+    border-bottom-right-radius: 10px;
+}
+
+
+.op-buttons,
+#equal {
+    background: rgb(226, 170, 65);
+}
+
+
+
+button:hover{background-color:rgb(194, 194, 194);}
+
+
+
